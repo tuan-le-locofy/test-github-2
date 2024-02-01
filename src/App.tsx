@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import ResultsPage from "./pages/ResultsPage";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   const action = useNavigationType();
@@ -45,7 +45,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<ResultsPage />} />
+      <Route path="/" element={<LandingPage />} />
     </Routes>
   );
 }
